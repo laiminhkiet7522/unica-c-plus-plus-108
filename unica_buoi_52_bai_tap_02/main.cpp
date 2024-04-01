@@ -9,7 +9,7 @@ void nhapMaTran(int maTran[][3], int rows, int cols)
         for(int j=0; j<cols; j++)
         {
             cout<<"Nhap phan tu thu ["<<i<<"]["<<j<<"]: ";
-            cin>>maTran[i][i];
+            cin>>maTran[i][j];
         }
     }
 }
@@ -19,7 +19,7 @@ void xuatMaTran(int maTran[][3], int rows, int cols)
     {
         for(int j=0; j<cols; j++)
         {
-            cout<<maTran[i][i]<<"\t";
+            cout<<maTran[i][j]<<"\t";
         }
         cout<<endl;
     }
