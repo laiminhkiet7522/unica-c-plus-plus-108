@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1712648480 source:d:\unica\unica-c-plus-plus-108\unica_buoi_63\main.cpp
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
